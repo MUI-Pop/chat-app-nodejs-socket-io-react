@@ -1,0 +1,106 @@
+/* .auth-layout{
+    border: 3px solid #f1f1f1;    
+    padding: 16px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 60%;
+    padding: 30px;
+} */
+
+.auth-layout{
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.login-form, .signup-form{
+     margin: auto;
+     width: 50%;
+     height: 90%;
+}
+
+.login-form .label,.signup-form .label{
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.login-form .login-input, .signup-form .login-input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;    
+}
+
+.login-form .button, .signup-form .button, .auth-layout .button{
+    background-color: rgb(2, 14, 2);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.auth-layout .button{
+    position: relative;
+    display: inline;
+    
+}
+
+/* .auth-layout{
+    width: 40%;
+    margin: auto;
+} */
+
+.auth-layout .tab-group {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+}
+
+.auth-layout .tab-group li a{
+    display: block;
+	text-decoration: none;
+	padding: 15px;
+	background: #e5e6e7;
+	color: #888;
+	font-size: 20px;
+	float: left;
+	width: 44%;
+	text-align: center;
+	border-top: 3px solid transparent;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.auth-layout .tab-group li a.active {
+    border-top: 3px solid black;
+}
+
+.tab-group li a:hover {
+	background: #dedfdf;
+    color: #666;
+    cursor: pointer;
+}
+
+.tab-group .active{
+	background: #fff;
+	color: #444;
+	border-top: 3px solid #73cf41;
+}
+
+.login-form .button[disabled], .signup-form .button[disabled]{
+    background-color: gray;
+}
